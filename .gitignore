@@ -5,3 +5,4 @@ logs/
 firebase-service-account.json
 .vscode/
 coverage/
+echo "src/config/*.json" >> .gitignore
