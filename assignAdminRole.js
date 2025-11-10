@@ -2,7 +2,7 @@ const admin = require("firebase-admin");
 const serviceAccount = require("./src/config/serviceAccountKey.json");
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+    credential: admin.credential.cert(serviceAccount),
 });
 
 const adminUid = "o9h7yv1N58fEiFRpAuMApiyKo0B2";
