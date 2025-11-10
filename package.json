@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
   "start": "ts-node-dev --respawn index.ts",
-  "dev": "ts-node-dev --respawn index.ts",
-  "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "jest"
 },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rrc-karmjeetkaur/backend_assignment4.git"
